@@ -64,6 +64,8 @@ onMounted(async () => {
 });
 
 const onSubmit = () => {
-  userStore.updateUser({ ...user.value });
+  if (user.value) {
+    userStore.updateUser(user.value);
+  }
 };
 </script>

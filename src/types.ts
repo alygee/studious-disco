@@ -3,6 +3,5 @@ export interface User {
   email: string;
   firstName: string;
   lastName: string;
-  email: string;
   lastVisitedAt: number;
 }

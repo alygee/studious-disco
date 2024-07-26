@@ -119,7 +119,6 @@
 import { ref, onMounted, computed } from 'vue';
 import { storeToRefs } from 'pinia';
 import { useUserStore } from '@/stores/userStore';
-import UserForm from '@/components/UserForm.vue';
 import type { User } from '@/types';
 
 const userStore = useUserStore();
@@ -132,7 +131,7 @@ const {
   sortedUsers,
 } = storeToRefs(userStore);
 
-const newUser = ref<User | null>({
+const newUser = ref<User>({
   id: 0,
   email: '',
   firstName: '',
