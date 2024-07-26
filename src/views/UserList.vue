@@ -87,12 +87,7 @@
         placeholder="Email"
         class="w-full p-2 border border-gray-300 rounded"
       />
-      <input
-        v-model.number="newUser.lastVisitedAt"
-        type="number"
-        placeholder="Last Visited (timestamp)"
-        class="w-full p-2 border border-gray-300 rounded"
-      />
+      <div />
       <button
         type="button"
         class="px-2 py-1 bg-green-500 text-white rounded hover:bg-green-600 ml-2"

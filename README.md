@@ -1,28 +1,16 @@
-# user-management-app
+# Тестовое задание
+Приложение для работы с таблицей пользователей с использованием Vue 3 с Composition API, Typescript, Pinia.  
 
-This template should help get you started developing with Vue 3 in Vite.
+Вёрстка реализована с помощью TailwindCSS для широкого экрана.  
 
-## Recommended IDE Setup
+Для редактирования пользователя был добавлен новый роутинг, но можно было переводить строку "таблицы" в режим редактирования и на основой странице.  
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Чтобы сделать интерфейс более user-friendly, сделан вывод всплывающих окошек через vue3-toastify при манипуляциях с данными.
 
 ## Project Setup
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
